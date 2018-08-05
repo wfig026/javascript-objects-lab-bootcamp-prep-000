@@ -1,4 +1,6 @@
 var recipes = new Object();
+
+// Add to Object 
  function updateObjectWithKeyAndValue(object, key, value){
   return Object.assign({},object,{[key]: value})
 }
@@ -6,6 +8,8 @@ var recipes = new Object();
  object[key] = value
 return object
 }
+
+// Delete From Object
  function deleteFromObjectByKey(object, key){
   var newObj =  Object.assign({},object)
   delete newObj[key]
